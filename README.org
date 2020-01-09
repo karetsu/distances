@@ -1,0 +1,43 @@
+#+TITLE:   Distances
+#+DATE:    January 9, 2020
+#+SINCE:   {replace with next tagged release version}
+#+STARTUP: inlineimages nofold
+
+
+
+* Table of Contents :TOC_3:noexport:
+- [[#description][Description]]
+- [[#prerequisites][Prerequisites]]
+- [[#features][Features]]
+- [[#configuration][Configuration]]
+- [[#troubleshooting][Troubleshooting]]
+
+* Description
+A Haskell implementation of Distances.jl. This project is:
+
++ a pet project using Haskell - I feel its about time I did something 'properly'
+  using it and got some practice writing tests and haddock
++ aiming to provide the metrics I need for another project I am working on using
+  Wasserstein distance
++ hoping to create the functions as generically as possible and not relying on
+  Vector for everything
+
+I do not expect this to be of much use to people outside of those working with
+me. If you do find use for any of the metrics contained or want to add others
+for consideration of implementation then please raise an issue.
+
+
+* Prerequisites
+None yet
+
+
+* Features
+For now you can look at the [[https://github.com/karetsu/distances/issues][issues]] to get an idea of what things are going to be implemented.
+
+
+* Configuration
+Use the nix declaration.
+
+
+* Troubleshooting
+None yet
