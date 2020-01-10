@@ -3,7 +3,7 @@ let
 
   inherit (nixpkgs) pkgs;
 
-  f = { mkDerivation, stdenv, base, Cabal, cabal-install, hmatrix, vector }:
+  f = { mkDerivation, stdenv, base, Cabal, cabal-install, lens }:
     mkDerivation {
       pname = "idiom";
       version = "0.0.0.1";
@@ -11,7 +11,7 @@ let
       isLibrary = false;
       isExecutable = true;
       executableSystemDepends = [ ];
-      executableHaskellDepends = [ base Cabal cabal-install ];
+      executableHaskellDepends = [ base Cabal cabal-install lens ];
       homepage = "https://gitlab.com/karetsu/distances";
       description =
         "A haskell package for evaluating distances (metrics) between points";
